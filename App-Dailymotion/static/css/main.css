@@ -1,0 +1,25 @@
+body{
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+h1{
+    text-align: center;
+    Font-family: Georgia, Times, Times New Roman, serif
+
+}
+#divCentral{
+    text-align: center;
+    border-color: black;
+
+}
+#carta{    
+    border-radius: 10px;
+    transition: 0.25s;
+}
+#carta:hover{
+    border: 2px solid rgb(9, 255, 0);
+}

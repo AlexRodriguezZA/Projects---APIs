@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API dailymotion</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+
+</head>
+<body>
+    <h1>Bienvenidos</h1>
+    <div id="divCentral" class="conteiner">
+    <div class="row">
+      <div class="col-md-1-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Música</h3>
+            <p class="card-text">Music Of dailymotion</p>
+            <a name="" id="" class="btn btn-info" href="{{url_for('music')}}" role="button">Click para ver</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Deportes</h3>
+            <p class="card-text">Sports of dailymotion</p>
+            <a name="" id="" class="btn btn-primary" href="{{url_for('sport')}}" role="button">Click para ver</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="col-xs-1-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Noticias</h3>
+            <p class="card-text">News of dailymotion</p>
+            <a name="" id="" class="btn btn-primary" href="{{url_for('news')}}" role="button">Click para ver</a>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+</div>
+</body>
+</html>
